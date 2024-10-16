@@ -81,7 +81,7 @@ Backup policy
 
 Azure Bot
 
-https://github.com/118bharath/Tesla-Website/blob/main/peoject%20ss/azure%20bot.png
+![azure bot.png](https://github.com/118bharath/Tesla-Website/blob/main/peoject%20ss/azure%20bot.png)
 
 
 Test in web chat
