@@ -1,0 +1,304 @@
+:root {
+    /* --primary: rgb(70, 70, 70); */
+    --primary: #75767A;
+    --secondary: #E3E3E3;
+    --textSecondary: #76777B;
+    --white: white;
+    --black: black;
+    --active: #3E6AE1;
+    --hoverActive: #233d83;
+}
+
+body {
+    margin-top: 0px;
+}
+
+.login-main-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-title {
+    color: var(--black);
+}
+
+.form-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--secondary);
+    background-color: var(--secondary);
+    border-radius: 30px;
+    padding: 15px;
+    width: 20vw;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.article-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--secondary);
+    background-color: var(--secondary);
+    border-radius: 30px;
+    padding: 15px;
+    width: 35vw;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.news-feed-container textarea {
+    border: 1px solid var(--secondary);
+    background-color: var(--secondary);
+    border-radius: 15px;
+    padding: 15px;
+    width: 35vw;
+    height: 25vh;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.news-feed-container select {
+    border: 1px solid var(--secondary);
+    background-color: var(--secondary);
+    border-radius: 15px;
+    padding: 15px;
+    width: 35vw;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.post-edit-buttons textarea {
+    border: 1px solid var(--secondary);
+    background-color: var(--secondary);
+    border-radius: 15px;
+    padding: 15px;
+    width: 35vw;
+    height: 25vh;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.post-edit-buttons select {
+    border: 1px solid var(--secondary);
+    background-color: var(--secondary);
+    border-radius: 15px;
+    padding: 15px;
+    width: 35vw;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.p-legend {
+    margin-left: 1vw;
+}
+
+.form-btn {
+    font-weight: bold;
+    width: 20vw;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 3vh 0px 3vh 0px;
+    transition: 1s ease;
+}
+
+.form-btn:hover {
+    cursor: pointer;
+    background-color: var(--hoverActive) !important;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.separator::before,
+.separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid var(--secondary);
+}
+
+.separator:not(:empty)::before {
+    margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+    margin-left: .25em;
+}
+
+#register-form {
+    display: none;
+}
+
+form {
+    margin-block-end: 0px;
+}
+
+.switch-btn {
+    border-radius: 25px;
+    padding: 15px 50px 15px 50px;
+    background-color: transparent;
+    border: 3px solid var(--primary);
+    color: var(--primary);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.switch-btn:hover {
+    background-color: var(--primary) !important;
+    color: var(--white) !important;
+}
+
+.news-feed-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.success-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0px;
+}
+
+#successful-form-login {
+    display: none;
+}
+
+#fail-form-login {
+    display: none;
+}
+
+#successful-form-signup {
+    display: none;
+}
+
+#successful-form-activation {
+    display: none;
+}
+
+#fail-form-signup {
+    display: none;
+}
+
+#user-details {
+    text-align: center;
+    font-weight: 1rem;
+    font-weight: bold;
+
+}
+
+#user-details-activation {
+    text-align: center;
+    font-weight: 1rem;
+    font-weight: bold;
+}
+
+#news-creator {
+    display: none;
+}
+
+.news-scroll-feed-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.failure-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: tomato;
+}
+
+.second-slide-news {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../assets/tesla_news.jfif');
+    background-size: cover;
+    background-position: center center;
+}
+
+.news-feed-container .p-legend {
+    margin-left: 0px !important;
+}
+
+.news-item {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    margin: 10vh 0px 10vh 0px;
+}
+
+.news-item-title {
+    color: var(--black);
+    font-size: 2.5rem;
+    margin: 0px;
+}
+
+.news-item-category {
+    color: var(--textSecondary);
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+.news-item-author {
+    color: var(--textSecondary);
+    font-size: 1.2rem;
+    margin: 0px;
+}
+
+.news-item-date {
+    color: var(--textSecondary);
+    font-size: 1.2rem;
+    margin: 0px;
+}
+
+.news-item-text {
+    text-align: justify;
+    color: var(--primary);
+    font-size: 1.2rem;
+}
+
+.date-input {
+    background-color: var(--white);
+    padding: 10px;
+    margin: 5px;
+}
+
+.date-legend {
+    font-weight: bold;
+    margin: 10px;
+}
+
+.edit-btn {
+    display: none;
+}
+
+.post-edit-buttons {
+    display: none;
+    flex-direction: column;
+}
