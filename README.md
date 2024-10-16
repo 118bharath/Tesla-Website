@@ -1,37 +1,47 @@
-victory-vault
+             DEPLOYING A STATIC WEBSITE INTO
+AZURE USING AZURE SERVICES
 
-Discover our commitment to nurturing a love for indoor sports and building a supportive community of dedicated athletes. Through expert guidance and state-of-the-art facilities, we empower individuals to excel and reach their athletic aspirations. Join us on the journey to unlock your full potential in indoor sports.
+Project Details:
+1.Project Demo URL: https://sami07.z29.web.core.windows.net/
+2.Project Video: Deploying of Static Website on Azure (youtube.com)
+3.GitHub Repository URL: https://github.com/118bharath/Tesla-Website
 
-Project Details
 
-Project Demo URL: 
-               https://mystoragevault.z13.web.core.windows.net/
-Demo Video URL: https://www.youtube.com/watch?v=duFw2sVCuuY&t=125s
-GitHub Repository URL: https://github.com/kbjtushar/victory-vault
-Industry: lifestyle - sports
-Roles and responsibilities
-Tushar Ray (project management) :Manages the web development project.
-Shreya Chittimalla (Deployment) :Deployment and maintenance of project infrastructure.
-Anupama Kunnil (Images, logos and chat bot questions) :Responsible for image searching, logo creation and chat bot questions
-Nikhil (Documentation) :Responsible for managing the documentation process.
+Roles and responsibilities:
+1.	Sai Bharath (project management): Manages the web development project.
+2.	Sampath (Deployment): Deployment and maintenance of project infrastructure.
+3.	Vamshi Bhargav (Images, logo and chat bot questions): Responsible for image searching, logo creation and chat bot questions
+4.	Malikarjuna (Documentation) :Responsible for managing the documentation process.
+
+
+
+ 
 Azure services used:
-Azure blob storage
-Storage account
-Azure Backup service
-Azure AI services
-chatbot
-Azure Role Based access Control(RBAC)
+1.Azure storage account
+2.Azure Backup services
+3.Azure AI services
+4.Azure Subscriptions
+
+
 Problem Statement:
-Many individuals particularly in urban areas, lack access to high-quality sports facilities and comprehensive training programs for indoor sports. This leads to a lack of opportunities for athletes of all ages and skill level to develop their talent. The project aims to address a significant problem in Indoor regarding the limited availability of infrastructure and opportunities for indoor games. Currently, the city lacks dedicated facilities and programs tailored specifically for indoor sports, leaving enthusiasts with few options for pursuing their interests or honing their skills in activities such as badminton, table tennis, basketball, and volleyball, among others. This scarcity not only impedes the development of aspiring athletes but also deprives the broader community of the numerous benefits associated with indoor sports, including physical fitness, social interaction, and mental well-being.
+In today’s fast-paced world, consumers often struggle with finding a reliable and convenient online platform that offers a wide variety of automobiles with seamless navigation and secure transactions. Many automotive websites either lack user-friendly interfaces or provide subpar customer service, leading to frustration and mistrust. The need for an all-in-one, secure, and efficient shopping solution is growing. Our platform addresses this challenge by offering a comprehensive resource where customers can easily browse, purchase, and receive support for all their automotive needs.
 
 Project Description:
-Victory Vault Indoor Sports Academy is a facility designed for training and developing athletes in various sports within an enclosed environment. It provides coaching, practice facilities, and equipments for sports like basketball, fencing, swimming and more. The academy aims to enhance skills, fitness and teamwork in a controlled and weather-independent setting. The core idea of an indoor sports academy revolves around addressing a key problem statement or opportunity area in the community. We aim to fill the gap in the community and provide a solution to this problem. Our academy will offer expert coaching and comprehensive training programs for a variety of indoor sports catering to athletes of all ages, backgrounds and skill levels. The indoor sports academy addresses a clear and pressing need within the community the lack of accessible and high-quality training for indoor sports. This problem is evident in the limited availability of proper facilities, the scarcity of the expert coaching and the absence of comprehensive training programs tailored to athlete’s needs. The indoor sports academy’s basic purpose and functionality are directly mapped to the problem statement or the opportunity area it aims to address. The core purpose of the academy is to provide accessible and high-quality training facilities for athletes, which aligns with the identified problem statement or opportunity area of the lack of such facilities in the community.
+In today’s fast-paced world, consumers often struggle with finding a reliable and convenient online platform that offers a wide variety of automobiles with seamless navigation and secure transactions. Many automotive websites either lack user-friendly interfaces or provide subpar customer service, leading to frustration and mistrust. The need for an all-in-one, secure, and efficient shopping solution is growing. Our platform addresses this challenge by offering a comprehensive resource where customers can easily browse, purchase, and receive support for all their automotive needs.
 
+ 
 Core Azure Services:
-Azure Blob Storage:- Azure Blob Storage is Microsoft's scalable object storage solution in the Azure cloud. It enables secure and cost-effective storage of unstructured data, such as documents and images. Offering seamless integration with applications, it supports data of any size and optimizes accessibility through a globally distributed network. Azure Storage Account:- Azure Storage Account is a foundational component in Microsoft Azure, providing secure and scalable cloud storage. It supports various storage services like Blob, File, Queue, and Table, accommodating diverse data types. With features such as redundancy options and access controls, it ensures reliable and efficient data management. Azure Backup Service:- Azure Backup Service by Microsoft safeguards critical data in the Azure cloud. It offers automated and scalable backup solutions for virtual machines, applications, and files. With features like long-term retention and geo-redundancy, it ensures data resilience and facilitates efficient disaster recovery, enhancing overall data protection strategies.
+1.Azure Storage Account:
+An Azure Storage Account provides a cloud-based storage solution for various data types, such as files, blobs (binary large objects), queues, tables, and disks. It offers highly scalable, durable, and secure storage options for structured, semi-structured, and unstructured data. 
+2.Azure Backup service:
+ Azure Backup Service is a cloud-based solution designed to back up and restore data in the Microsoft cloud ecosystem. It offers scalable, secure, and cost-effective data protection for both on-premises and cloud workloads, ensuring data resiliency and compliance with minimal infrastructure.
+3.Azure AI services:
+ Azure AI Services encompass a wide range of artificial intelligence tools and APIs, such as Azure Cognitive Services and Azure Machine Learning. These services empower developers and data scientists to build intelligent applications with capabilities like natural language processing, computer vision, and predictive analytics, leveraging pre-built models and customizable solutions for business needs.
+4.Azure Blob storage:
+ Azure Blob Storage is a highly scalable object storage service that allows users to store large amounts of unstructured data like text, images, and videos. Its pay-as-you-go model and various access tiers make it ideal for big data analytics, backups, and serving static content.
+5.Azure Subscriptions: 
+An Azure Subscription is an agreement with Microsoft to use Azure services. It is a logical container used to provision resources and manage costs and billing. Subscriptions are tied to an Azure account, which is associated with a specific billing profile.
 
-Azure AI Service
-Azure Chatbot :- The Azure AI Language Chatbot is a cutting-edge conversational agent powered by Microsoft's Azure platform. Leveraging advanced natural language processing capabilities, it facilitates dynamic and context-aware interactions. This intelligent chatbot employs machine learning algorithms to comprehend user queries, providing personalized responses and assistance across diverse domains. Seamlessly integrating with Azure services, it ensures scalability and reliability.
 
 Screenshot’s:
 Storage Account
