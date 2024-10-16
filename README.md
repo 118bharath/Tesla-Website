@@ -63,21 +63,23 @@ Screenshot’s:
 
 Storage Account
 
+![storage account.png](https://github.com/118bharath/Tesla-Website/blob/main/peoject%20ss/storage%20account.png)
 
 Static website
 
+![static website.png](https://github.com/118bharath/Tesla-Website/blob/main/peoject%20ss/static%20website.png)
 
 Container
 
+![container.png](https://github.com/118bharath/Tesla-Website/blob/main/peoject%20ss/container.png)
 
-Backup vault
+Backup vault and policy
 
+![vault and policy.png](https://github.com/118bharath/Tesla-Website/blob/main/peoject%20ss/vault%20and%20policy.png)
 
 Role assignment
 
-
-Backup policy
-
+![role assaignment.png](https://github.com/118bharath/Tesla-Website/blob/main/peoject%20ss/role%20assaignment.png)
 
 Azure Bot
 
@@ -86,8 +88,7 @@ Azure Bot
 
 Test in web chat
 
-
-Resource visualizer
+![chatbot.png](https://github.com/118bharath/Tesla-Website/blob/main/peoject%20ss/chatbot.png)
 
 
 Description
@@ -98,7 +99,20 @@ Working Live Project Display:
 
 Home page
 
+![home page.png](https://github.com/118bharath/Tesla-Website/blob/main/peoject%20ss/home%20page.png)
+
+car model
+
+![tesla.png](https://github.com/118bharath/Tesla-Website/blob/main/peoject%20ss/tesla.png)
+
 
 
 Final Project Statement:
-Inspiring athletes to reach their full potential through state-of-the-art facilities, expert coaching, and comprehensive training programs. Join us to unlock your athletic excellence and become part of our thriving sports community.
+Here’s a sample final statement for your Tesla-themed website deployed using Azure Static Web Apps:
+
+---
+
+### Final Statement
+
+We are proud to present our Tesla-themed website, hosted on Azure Storage account, offering a seamless and optimized user experience. This deployment leverages the power of static web hosting, enabling fast load times, scalability, and secure delivery.
+
