@@ -1,8 +1,11 @@
 victory-vault
+
 Discover our commitment to nurturing a love for indoor sports and building a supportive community of dedicated athletes. Through expert guidance and state-of-the-art facilities, we empower individuals to excel and reach their athletic aspirations. Join us on the journey to unlock your full potential in indoor sports.
 
 Project Details
-Project Demo URL: https://mystoragevault.z13.web.core.windows.net/
+
+Project Demo URL: 
+               https://mystoragevault.z13.web.core.windows.net/
 Demo Video URL: https://www.youtube.com/watch?v=duFw2sVCuuY&t=125s
 GitHub Repository URL: https://github.com/kbjtushar/victory-vault
 Industry: lifestyle - sports
