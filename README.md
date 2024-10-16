@@ -1,4 +1,4 @@
-             DEPLOYING A STATIC WEBSITE INTO
+DEPLOYING A STATIC WEBSITE INTO AZURE USING AZURE SERVICES
 AZURE USING AZURE SERVICES
 
 Project Details:
@@ -16,9 +16,6 @@ Roles and responsibilities:
 3.	Vamshi Bhargav (Images, logo and chat bot questions): Responsible for image searching, logo creation and chat bot questions
 4.	Malikarjuna (Documentation) :Responsible for managing the documentation process.
 
-
-
- 
 Azure services used:
 
 1.Azure storage account
